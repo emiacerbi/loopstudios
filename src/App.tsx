@@ -1,12 +1,10 @@
-import { } from 'react'
+import React, { } from 'react'
 import { Creations } from './components/Creations'
 import { Footer } from './components/Footer'
 import { Header } from './components/Header'
 import { MainSection } from './components/MainSection'
-// import { Header } from '../components/Header'
 
-function App() {
-
+function App () {
   return (
     <>
       <Header />

@@ -12,7 +12,7 @@ export const FooterIcon = ({ icon, alt }: Props) => {
       width={35}
       height={35}
       alt={alt}
-      className='pb-[5px] hover:pb-[3px] text-white hover:border-b-2 cursor-pointer'
+      className='pb-[5px] text-white hover:opacity-50 duration-200 cursor-pointer'
     />
   )
 }

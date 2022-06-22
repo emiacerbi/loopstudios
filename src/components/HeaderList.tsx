@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-export const FooterList = () => {
+export const HeaderList = () => {
   const [items, setItems] = useState([
     { id: 1, text: 'About', underline: false },
     { id: 2, text: 'Careers', underline: false },
@@ -16,7 +16,7 @@ export const FooterList = () => {
   }
 
   return (
-    <ul className='flex flex-col gap-5 py-8 font-primary text-center lg:flex-row lg:p-0'>
+    <ul className='hidden gap-10 py-8 font-primary text-center lg:flex '>
       {
         items.map(item => {
           return (
@@ -24,12 +24,12 @@ export const FooterList = () => {
               key={item.id}
               onMouseEnter={() => changeUnderline(item.id)}
               onMouseLeave={() => changeUnderline(item.id)}
-              className='relative cursor-pointer'
+              className={'relative cursor-pointer '}
             >
               <div className={`absolute duration-300 ${item.underline ? 'w-1/2' : 'w-0'} -bottom-1 left-1/2 -translate-x-1/2  h-0.5 bg-white `}>
               </div>
 
-              <p className='text-xl'>{item.text}</p>
+              <p className='text-lg'>{item.text}</p>
             </li>
           )
         })

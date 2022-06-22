@@ -6,6 +6,6 @@ interface Props {
 
 export const SecondaryTitle = ({ children }: Props) => {
   return (
-    <h2 className='text-4xl mt-8 text-center font-secondary'>{children}</h2>
+    <h2 className='mx-auto mt-8 max-w-lg font-secondary text-4xl text-center md:text-5xl lg:-order-1 lg:text-left'>{children}</h2>
   )
 }

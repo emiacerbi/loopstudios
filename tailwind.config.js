@@ -11,7 +11,8 @@ module.exports = {
         secondary: ['Josefin Sans, sans-serif']
       },
       backgroundImage: {
-        "hero": "url('mobile/image-hero.jpg')"
+        "hero": "url('mobile/image-hero.jpg')",
+        "heroDesktop": "url('desktop/image-hero.jpg')",
       }
     },
   },
