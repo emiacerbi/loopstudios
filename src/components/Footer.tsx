@@ -14,7 +14,7 @@ export const Footer = () => {
 
         <div className='flex flex-col gap-5'>
           <div className='flex gap-5 items-center mx-auto mt-5 lg:mt-0'>
-            <FooterIcon icon='/public/icon-facebook.svg' alt='facebook logo' />
+            <FooterIcon icon='icon-facebook.svg' alt='facebook logo' />
             <FooterIcon icon='icon-twitter.svg' alt='twitter logo' />
             <FooterIcon icon='icon-pinterest.svg' alt='pinterest logo' />
             <FooterIcon icon='icon-instagram.svg' alt='instagram logo' />

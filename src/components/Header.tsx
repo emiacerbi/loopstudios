@@ -10,7 +10,7 @@ export const Header = () => {
       <div className='container flex z-10 flex-col flex-1 py-10 px-5 mx-auto max-w-6xl'>
         <nav className='flex justify-between items-center'>
           <img src="logo.svg" alt="loopstudios logo" />
-          <img src="icon-hamburger.svg" alt="menu icon" className='lg:hidden' />
+          <img src="icon-hamburger.svg" alt="menu icon" className='cursor-pointer lg:hidden' />
 
           <HeaderList />
         </nav>

@@ -1,8 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./index.html",
-    "./src/**/*.{vue,js,ts,jsx,tsx}",
+    './index.html',
+    './src/**/*.{vue,js,ts,jsx,tsx}'
   ],
   theme: {
     extend: {
@@ -11,10 +11,10 @@ module.exports = {
         secondary: ['Josefin Sans, sans-serif']
       },
       backgroundImage: {
-        "hero": "url('mobile/image-hero.jpg')",
-        "heroDesktop": "url('desktop/image-hero.jpg')",
+        hero: "url('/mobile/image-hero.jpg')",
+        heroDesktop: "url('/desktop/image-hero.jpg')"
       }
-    },
+    }
   },
-  plugins: [],
+  plugins: []
 }
