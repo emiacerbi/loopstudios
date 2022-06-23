@@ -13,7 +13,7 @@ export const Footer = () => {
         </div>
 
         <div className='flex flex-col gap-5'>
-          <div className='flex gap-5 items-center mx-auto mt-5 lg:mt-0'>
+          <div className='flex gap-5 items-center mx-auto mt-5 lg:mx-0 lg:mt-0 lg:ml-auto '>
             <FooterIcon icon='icon-facebook.svg' alt='facebook logo' />
             <FooterIcon icon='icon-twitter.svg' alt='twitter logo' />
             <FooterIcon icon='icon-pinterest.svg' alt='pinterest logo' />

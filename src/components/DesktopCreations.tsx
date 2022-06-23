@@ -3,7 +3,7 @@ import { Card } from './Card'
 
 export const DesktopCreations = () => {
   return (
-    <div className='hidden grid-cols-[256px_256px_256px_256px] gap-7 justify-center py-10 lg:grid'>
+    <div className='hidden grid-cols-[256px_256px] gap-7 justify-center py-10 lg:grid xl:grid-cols-[256px_256px_256px_256px]'>
       <Card
         bgImage='desktop/image-deep-earth.jpg'
         imageTitle='deep earth'

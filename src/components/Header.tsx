@@ -1,16 +1,33 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { HeaderList } from './HeaderList'
+import { MobileMenu } from './MobileMenu'
 
 export const Header = () => {
+  const [isMenuVisible, setIsMenuVisible] = useState(false)
+
+  const handleClick = () => {
+    setIsMenuVisible(!isMenuVisible)
+  }
+
   return (
     <header className='flex relative flex-col h-screen text-white bg-center bg-cover bg-hero md:bg-heroDesktop'>
+
+      <MobileMenu
+        isMenuVisible={isMenuVisible}
+        handleClick={handleClick}
+      />
 
       <div className='absolute w-full h-full bg-black opacity-40 '></div>
 
       <div className='container flex z-10 flex-col flex-1 py-10 px-5 mx-auto max-w-6xl'>
         <nav className='flex justify-between items-center'>
           <img src="logo.svg" alt="loopstudios logo" />
-          <img src="icon-hamburger.svg" alt="menu icon" className='cursor-pointer lg:hidden' />
+          <img
+            src="icon-hamburger.svg"
+            alt="menu icon"
+            className='cursor-pointer lg:hidden'
+            onClick={handleClick}
+          />
 
           <HeaderList />
         </nav>

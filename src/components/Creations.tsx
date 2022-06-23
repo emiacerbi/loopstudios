@@ -12,7 +12,7 @@ export const Creations = () => {
           <SecondaryTitle>
             OUR CREATIONS
           </SecondaryTitle>
-          <button className='hidden py-3 px-12 mx-auto mt-5 max-w-fit font-primary text-2xl tracking-widest hover:text-white hover:bg-black border-2 border-black duration-200 lg:block'>
+          <button className='hidden py-3 px-12 mt-5 max-w-fit font-primary text-2xl tracking-widest hover:text-white hover:bg-black border-2 border-black duration-200 lg:block'>
             SEE ALL
           </button>
         </div>
