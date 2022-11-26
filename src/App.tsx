@@ -1,4 +1,3 @@
-import React, { } from 'react'
 import { Creations } from './components/Creations'
 import { Footer } from './components/Footer'
 import { Header } from './components/Header'
